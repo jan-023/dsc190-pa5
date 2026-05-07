@@ -6,6 +6,9 @@ def main():
     if len("not lint violation anymore") == var:
         print("Should not have printed this line")
 
+    x = 1 + 2
+    print(x)
+
 
 if __name__ == "__main__":
     main()
